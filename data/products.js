@@ -6,7 +6,7 @@ const products = [
     "subtitle": "Signature Collection",
     "description": "A captivating fragrance blending oud, amber and black pepper, crafted for those who appreciate refined luxury.",
     "price": 65.99,
-    "image_url": "https://images.unsplash.com/photo-1543422655-ac1c6ca993ed?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46872.jpg",
     "accent": "black"
   },
   {
@@ -16,7 +16,7 @@ const products = [
     "subtitle": "Signature Collection",
     "description": "A captivating fragrance blending saffron, vanilla and oud wood, crafted for those who appreciate refined luxury.",
     "price": 76.99,
-    "image_url": "https://images.unsplash.com/photo-1601284687405-78283d7e3b2d?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://i.pinimg.com/736x/45/08/28/4508288c99fad4e033e5ec72237bd639.jpg",
     "accent": "amber"
   },
   {
@@ -26,7 +26,7 @@ const products = [
     "subtitle": "Signature Collection",
     "description": "A captivating fragrance blending jasmine, white musk and orchid, crafted for those who appreciate refined luxury.",
     "price": 87.99,
-    "image_url": "https://images.unsplash.com/photo-1591892212776-a09de24dbe84?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://www.pinterest.com/pin/627618898114316584/",
     "accent": "rose"
   },
   {
@@ -36,7 +36,7 @@ const products = [
     "subtitle": "Signature Collection",
     "description": "A captivating fragrance blending bergamot, rose and sandalwood, crafted for those who appreciate refined luxury.",
     "price": 98.99,
-    "image_url": "https://images.unsplash.com/photo-1588163282942-bdc63a1d57ab?q=80&w=800&auto=format&fit=crop",
+    "image_url": "https://www.pinterest.com/pin/1105633777347351691/",
     "accent": "gold"
   },
   {
