@@ -18,7 +18,7 @@ export async function POST(request) {
     }
 
     const stripe = getStripe();
-    const baseUrl = process.env.BETTER_AUTH_URL || "http://localhost:3000";
+    const baseUrl = process.env.BETTER_AUTH_URL || "https://zexo-perfume.vercel.app";
 
     const line_items = items.map((item) => ({
       price_data: {

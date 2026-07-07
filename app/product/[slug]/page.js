@@ -4,7 +4,7 @@ import ProductActions from "./ProductActions";
 
 async function getProduct(slug) {
   try {
-    const base = process.env.BETTER_AUTH_URL || "http://localhost:3000";
+    const base = process.env.BETTER_AUTH_URL || "https://zexo-perfume.vercel.app";
     const res = await fetch(`${base}/api/products/${slug}`, { cache: "no-store" });
     if (!res.ok) throw new Error("not found");
     return await res.json();
