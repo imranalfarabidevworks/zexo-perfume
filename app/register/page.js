@@ -15,11 +15,16 @@ export default function RegisterPage() {
     e.preventDefault();
     setError("");
     setLoading(true);
+
+    // ইমেইলটিকে ছোট হাতের অক্ষরে (lowercase) কনভার্ট করে নেওয়া হলো
+    const cleanEmail = form.email.toLowerCase();
+
     const { error } = await signUp.email({
       name: form.name,
-      email: form.email,
+      email: cleanEmail, // এখানে পরিবর্তিত ছোট হাতের ইমেইলটি পাঠানো হচ্ছে
       password: form.password,
     });
+    
     setLoading(false);
     if (error) {
       setError(error.message || "Could not create your account.");
